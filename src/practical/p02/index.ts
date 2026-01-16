@@ -20,4 +20,6 @@ type newUser = {
     bs: string;
   };
 };
-export function addUser(newUser: newUser | null) {}
+export function addUser(newUser: newUser | null) {
+  
+}
