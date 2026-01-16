@@ -1,4 +1,3 @@
-
 import axios from 'axios';
 
 type newUser = {
@@ -55,7 +54,6 @@ export async function addUser(newUser: newUser | null) {
 
     const lastUser = users[users.length - 1];
     const newUserId = lastUser.id + 1;
-
     const newUserData = {
       id: newUserId,
       name: newUser.name || null,
